@@ -1,0 +1,80 @@
+[
+   {
+     "id": "white-mug",
+     "name": "White Mug",
+     "category":["Mug", "kitchenware"],
+     "price": 10.00,
+     "description": "Handmade artisan white mug",
+     "sale": false,
+     "image": {
+       "url":"/images/MugProductImage.png"
+     }
+   },
+   {
+     "id": "white-dish",
+     "name": "White Dish",
+     "category": ["plate", "kitchenware"],
+     "price": 20.00,
+     "description": "Handmade artisan white plate",
+     "sale": true,
+     "image": {
+      "url":"/images/DishProductImage.png"
+    }
+   },
+   {
+     "id": "Plate-with-utensils",
+     "name": "Plate with Utensils",
+     "category": ["plate", "kitchenware"],
+     "price": 30.00,
+     "description": "Handmade artisan white plate with black details and utensils",
+     "sale": false,
+     "image": {
+       "url": "/images/PlateProductImage.png"
+     }
+   },
+   {
+     "id": "white-Bowl",
+     "name": "White Bowl",
+     "category":["bowl", "kitchenware"],
+     "price": 5.00,
+     "description": "Spotted handmade clay bowl",
+     "sale": false,
+     "image": {
+       "url": "/images/BowlProductImage.png"
+     }
+   },
+   
+   {
+    "id": "black-cushion-chair",
+    "name": "Black Chair",
+    "category":["furniture"],
+    "price": 50.00,
+    "description": "Comfortable rustic chair with cotton cushioning",
+    "sale": false,
+    "image": {
+      "url": "/images/BlackCushionChair.png"
+    }
+  },
+  {
+    "id": "blanket-ladder",
+    "name": "Blanket Rack",
+    "category":["furniture"],
+    "price": 150.00,
+    "description": "Handmade wooden ladder for hanging throws and blankets",
+    "sale": false,
+    "image": {
+      "url": "/images/BlanketLadder.png"
+    }
+  },
+  {
+    "id": "white-shelves",
+    "name": "White Shelf Set",
+    "category":["furniture"],
+    "price": 80.00,
+    "description": "Set of three white floating shelves with lip",
+    "sale": false,
+    "image": {
+      "url": "/images/WhiteShelvesImage.png"
+    }
+  }
+ ]

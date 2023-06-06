@@ -1,0 +1,166 @@
+
+@font-face {
+	font-family: "Noto Sans";
+	src: url(../public/fonts/Noto_Sans/NotoSans-Light.ttf) format('truetype');
+	font-style: normal;
+	font-weight: 100;
+  }
+  @font-face {
+	font-family: "Playfair Display SC";
+	src: url(../public/fonts/Playfair_Display_SC/PlayfairDisplaySC-Regular.ttf);
+	font-style: normal;
+	font-weight: 100;
+  }
+  * {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	box-sizing:border-box;
+  }
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Noto Sans" !important;
+}
+
+body {
+	width: 100%;
+	background-color: #f4f4f7;
+
+}
+
+a {
+	text-decoration: none;
+	color: #755050 !important;
+	-webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    transition: all .2s ease-out;
+}
+a:hover{
+	color: #000000 !important;
+	-webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    transition: all .2s ease-in;
+}
+a.item:hover{
+	transition: all .5 ease-in !important;
+
+}
+
+a.item{
+	transition: all .5s ease-out !important;
+	height: 1vh !important;
+}
+
+h1{
+	font-family: "Playfair Display SC" !important;
+	font-size: 2.5em !important;
+}
+
+.container {
+	padding: 1vh 1vw;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+img {
+	object-fit: contain;
+	transition: all 0.5s ease-in-out;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+.nav-price {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	cursor: pointer;
+}
+
+.btn {
+	background-color: #dfd2d2;
+	color: #573838;
+	display: inline-block;
+	padding: 15px 20px;
+	margin: 5px 0;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+	border: none;
+}
+
+.btn:hover {
+	background-color: #ad8e8c;
+	color: #dfd2d2;
+}
+
+.ui.segment{
+	background:transparent !important;
+	color: #886060;
+	box-shadow: none !important;
+	border: none !important;
+	text-align: center !important;
+  }
+
+  .ui.secondary.pointing.menu .item{
+	align-self: center !important;
+
+  }
+  .ui.menu .pointing.dropdown.item .menu {
+	
+	background-color:#dfd2d2bb;
+
+  }
+  .DropdownItem{
+  }
+  .ui.menu .ui.dropdown .menu>.item {
+	background:none !important;
+  }
+  .MenuBar{
+	font-size: 1em !important;
+	align-items: center !important;
+	
+  }
+
+
+  @media (max-width: 950px) {
+	.container {
+		padding: 0 50px;
+	}
+	.MenuBar{
+		display: flex;
+		flex-direction: row;
+		position: relative;
+	}
+	.MenuDivContainer{
+		display: flex !important;
+		position: relative !important;
+		font: .1em;
+	}
+	.ui.menu{
+		flex-wrap: wrap;
+		flex-direction: row;
+		width: 100% !important;
+	}
+	.Navbar_navbar__LTdqG {
+		display: flex;
+		flex-direction: row;
+		position: relative;
+		flex-wrap: wrap;
+		align-items: stretch;
+		justify-content: flex-end;
+		width: 100%;
+		padding: 0;
+	}
+	.a.item{
+	}
+}

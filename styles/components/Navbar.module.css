@@ -1,0 +1,36 @@
+.navbar {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	background-color:#dfd2d263;
+	color: #573838;
+	padding: 20px 50px;
+	font-size: 20px;
+	font-weight: 600;
+	z-index: 3;
+}
+
+@media (max-width: 500px) {
+	.navbar {
+		padding: 20px 50px;
+		display: flex;
+		flex-direction: row;
+		position: relative !important;
+	}
+}
+
+.logo,
+.nav_price {
+	cursor: pointer;
+}
+
+.logo_span {
+	color:#573838;
+}
+
+.nav_price {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
